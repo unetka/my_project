@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header{
+    
+}
+
+.head{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    background-image: url(img/1627091486_9-kartinkin-com-p-pikselnii-art-les-art-krasivo-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    
+}
+
+.head_item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+
+.head_text{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.head_btn{
+    width: 250px;
+    height: 55px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #053b00; 
+    border: 1px solid #556B2F;
+    transition: .2s linear;
+    font-size: 15px;
+}
+
+.head_btn:hover{
+    background-color: #fff;
+    border: 1px solid #053b00;
+    color: #556B2F;
+}
+
+/* Menu */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 70px;
+    background-color: #FDF5E6;
+}
+
+.logo{
+    font-size: 25px;
+    color: #6B8E23;
+    cursor: pointer;
+}
+
+.menu_item{
+    display: flex;
+    gap: 30px;
+}
+
+.menu_link{
+    text-decoration: none;
+    color: #6B8E23;
+    font-size: 17px;
+}
+
+.menu_link:hover{
+    text-decoration: underline;
+}
+
+
+section[type="first"]{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FDF5E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first_menu{
+    display: flex;
+    
+}
+
+.first_menu a{
+    width: 25vw;
+    height: 50px;
+    border: 4px inset green;
+    border-left: 4px solid green;
+    border-right: none;
+    border-top: none;
+}
+
+.first_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s linear;
+}
+
+.first_link:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.first_h1{
+    margin-top: 25px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    border: 5px dotted green;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media(max-width: 768px){
+    .menu{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+    .menu_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+        align-items: center;
+    }
+    .menu_item a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 23px;
+    }
+    .logo{
+        width: 300px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        border: 5px dotted green;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .head{
+        height: 100vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
